@@ -1,13 +1,208 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Utility Tools</title>
+    <title>Utility Tools Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css"> <!-- Link to external CSS file -->
 </head>
 
 <body>
-    <h1>HEllo world ubdate </h1>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <!-- Logo (left aligned) -->
+                <div class="logo">
+                    <a href="#">Utility Tools</a>
+                </div>
+
+                <!-- Navbar Links (center or right aligned) -->
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="#tools">Tools</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#login">Login</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Search Bar (right aligned) -->
+                <div class="search-bar">
+                    <input type="text" placeholder="Search...">
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Simplifying Your Daily Tasks</h1>
+        <p>Explore our suite of essential tools to boost your productivity and simplify your life.</p>
+        <a href="#" class="btn-primary">Explore Tools</a>
+    </section>
+
+    <!-- Tool Cards Section -->
+    <section class="tool-cards">
+        <div class="card">
+            <div class="card-icon">📱</div>
+            <h4>Calculator</h4>
+            <p>Perform quick and accurate arithmetic operations.</p>
+        </div>
+        <div class="card">
+            <div class="card-icon">✔️</div>
+            <h4>To-Do List</h4>
+            <p>Organize tasks and boost productivity.</p>
+        </div>
+        <div class="card">
+            <div class="card-icon">↔️</div>
+            <h4>Unit Converter</h4>
+            <p>Convert between various units like length, weight, and temperature.</p>
+        </div>
+        <div class="card">
+            <div class="card-icon">🌦️</div>
+            <h4>Weather Checker</h4>
+            <p>Stay updated with real-time weather information for any location.</p>
+        </div>
+        <div class="card">
+            <div class="card-icon">🔒</div>
+            <h4>Password Generator</h4>
+            <p>Generate strong, secure passwords.</p>
+        </div>
+        <div class="card">
+            <div class="card-icon">💬</div>
+            <h4>Random Quote</h4>
+            <p>Find daily inspiration with a fresh motivational quote.</p>
+        </div>
+        <div class="card">
+            <div class="card-icon">📑</div>
+            <h4>Text Formatter</h4>
+            <p>Format your text with options like case conversion and whitespace trimming.</p>
+        </div>
+        <div class="card">
+            <div class="card-icon">📸</div>
+            <h4>Image Compressor</h4>
+            <p>Optimize image size without compromising quality.</p>
+        </div>
+        <!-- Currency Converter -->
+        <div class="card">
+            <div class="card-icon">💰</div>
+            <h4>Currency Converter</h4>
+            <p>Convert currencies in real-time using live exchange rates.</p>
+        </div>
+
+        <!-- Notes and Text Editor -->
+        <div class="card">
+            <div class="card-icon">📝</div>
+            <h4>Notes and Text Editor</h4>
+            <p>Write and save notes with rich-text formatting and local storage.</p>
+        </div>
+
+        <!-- Timer and Stopwatch -->
+        <div class="card">
+            <div class="card-icon">⏲️</div>
+            <h4>Timer and Stopwatch</h4>
+            <p>Manage time effectively with a simple yet functional timer and stopwatch.</p>
+        </div>
+
+        <!-- QR Code Generator -->
+        <div class="card">
+            <div class="card-icon">🔳</div>
+            <h4>QR Code Generator</h4>
+            <p>Create QR codes for URLs, text, or other data.</p>
+        </div>
+
+        <!-- Health BMI Calculator -->
+        <div class="card">
+            <div class="card-icon">🏋️‍♀️</div>
+            <h4>Health BMI Calculator</h4>
+            <p>Calculate your Body Mass Index to monitor your health and fitness goals.</p>
+        </div>
+
+        <!-- World Clock -->
+        <div class="card">
+            <div class="card-icon">🌍</div>
+            <h4>World Clock</h4>
+            <p>Display the current time in multiple cities worldwide.</p>
+        </div>
+
+        <!-- Dictionary and Thesaurus -->
+        <div class="card">
+            <div class="card-icon">📚</div>
+            <h4>Dictionary and Thesaurus</h4>
+            <p>Look up definitions, synonyms, and antonyms instantly.</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <div class="row">
+                <!-- Text Column -->
+                <div class="col-md-6">
+                    <h2>About the Project</h2>
+                    <p>
+                        The Utility Tools Website is designed to provide a variety of essential tools that simplify
+                        everyday tasks and improve productivity.
+                        This platform combines a wide range of utilities, such as calculators, to-do lists, weather
+                        checkers, and more, in one place.
+                        It's perfect for both personal and professional use, offering a clean and intuitive interface to
+                        make your tasks easier.
+                    </p>
+                    <p>
+                        The goal is to create an all-in-one platform that saves time and effort, helping users work
+                        smarter, not harder.
+                        Whether you need to convert units, check the weather, or generate strong passwords, this website
+                        offers all the tools you need in one place.
+                    </p>
+                </div>
+                <!-- Icons Column -->
+                <div class="col-md-6">
+                    <h3>Future Enhancements</h3>
+                    <ul class="future-enhancements">
+                        <li>
+                            <i class="fa fa-moon"></i>
+                            <p>Dark Mode</p>
+                        </li>
+                        <li>
+                            <i class="fa fa-user"></i>
+                            <p>User Accounts</p>
+                        </li>
+                        <li>
+                            <i class="fa fa-cogs"></i>
+                            <p>Customization Options</p>
+                        </li>
+                        <li>
+                            <i class="fa fa-lock"></i>
+                            <p>Enhanced Security</p>
+                        </li>
+                        <li>
+                            <i class="fa fa-bolt"></i>
+                            <p>Performance Improvements</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2024 Utility Tools | All rights reserved</p>
+        <p>Contact | Privacy Policy | Terms of Service</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
-</html>
+</html> 
