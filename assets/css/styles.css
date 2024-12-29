@@ -1,7 +1,7 @@
 /* Global Styles */
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #F4F6F8;
+    font-family: "Roboto", sans-serif;
+    background-color: #f4f6f8;
     /* Light Gray Background */
     color: #333333;
     /* Dark Charcoal Text */
@@ -12,13 +12,14 @@ body {
     min-height: 100vh;
 }
 
-a{
+a {
     text-decoration: none;
     color: #000;
 }
+
 /* Header Styles */
 .header {
-    background-color: #1E90FF;
+    background-color: #0c63bb;
     /* Dodger Blue */
     color: white;
     padding: 15px 20px;
@@ -86,7 +87,7 @@ a{
 }
 
 .header .navbar ul li a:hover {
-    color: #FF6347;
+    color: #ff6347;
     /* Tomato color on hover */
 }
 
@@ -113,10 +114,9 @@ a{
     }
 }
 
-
 /* Hero Section Styles */
 .hero {
-    background: linear-gradient(135deg, #4CAF50, #1E90FF);
+    background: linear-gradient(135deg, #4caf50, #1e90ff);
     /* Gradient with Dodger Blue */
     color: white;
     padding: 80px 0;
@@ -147,7 +147,7 @@ a{
 }
 
 .card {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     /* White background for cards */
     border: none;
     border-radius: 10px;
@@ -159,13 +159,13 @@ a{
 
 .card:hover {
     transform: translateY(-10px);
-    background-color: #F4F6F8;
+    background-color: #f4f6f8;
     /* Light Gray on hover */
 }
 
 .card-icon {
     font-size: 50px;
-    color: #1E90FF;
+    color: #1e90ff;
     /* Dodger Blue for icons */
 }
 
@@ -185,7 +185,7 @@ a{
 
 /* Button Styles */
 .btn-primary {
-    background-color: #FF6347;
+    background-color: #ff6347;
     /* Tomato for call-to-action buttons */
     border: none;
     padding: 10px 20px;
@@ -197,13 +197,13 @@ a{
 }
 
 .btn-primary:hover {
-    background-color: #FF4500;
+    background-color: #ff4500;
     /* Darker Tomato on hover */
 }
 
 /* Footer Styles */
 .footer {
-    background-color: #1E90FF;
+    background-color: #1e90ff;
     /* Dodger Blue */
     color: white;
     padding: 20px;
@@ -215,7 +215,7 @@ a{
 
 /* Success Message Styles */
 .success-message {
-    background-color: #32CD32;
+    background-color: #32cd32;
     /* Lime Green for success notifications */
     color: white;
     padding: 10px;
@@ -227,7 +227,7 @@ a{
 
 /* About Section Styles */
 .about {
-    background: linear-gradient(135deg, #1E90FF, #FF6347);
+    background: linear-gradient(135deg, #1e90ff, #ff6347);
     /* Gradient background with Dodger Blue and Tomato */
     color: white;
     padding: 80px 20px;
@@ -274,7 +274,7 @@ a{
 
 .about .future-enhancements i {
     font-size: 50px;
-    color: #FFFFFF;
+    color: #ffffff;
     /* White color for icons */
     margin-right: 20px;
     transition: color 0.3s ease;
@@ -282,13 +282,13 @@ a{
 }
 
 .about .future-enhancements li:hover i {
-    color: #FF6347;
+    color: #ff6347;
     /* Change icon color to Tomato on hover */
 }
 
 .about .future-enhancements p {
     font-size: 20px;
-    color: #FFFFFF;
+    color: #ffffff;
     /* White text for descriptions */
     font-weight: 500;
     margin: 0;
@@ -320,7 +320,7 @@ a{
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     margin-top: 100px;
-    margin-left:500px ;
+    margin-left: 500px;
 }
 
 /* Form styling */
@@ -377,39 +377,42 @@ a{
     text-decoration: underline;
 }
 
-.todolist{
+.todolist {
     width: 100%;
     min-height: 100vh;
     background: linear-gradient(135deg, #153677, #4e085f);
     padding: 10px;
 }
 
-.todo-web{
+.todo-web {
     width: 100%;
     max-width: 540px;
     background: #fff;
     margin: 100px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(165, 9, 249);
 }
 
-.roww{
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   background: #edeef0;
-   border-radius: 30px;
-   padding-left: 20px;
-   margin-bottom: 25px; 
+.roww {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
 }
-input{
-   flex: 1;
-   border: none;
-   outline: none;
-   background: transparent;
-   padding: 10px; 
+
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
 }
-button{
+
+button {
     border: none;
     outline: none;
     padding: 16px 50px;
@@ -420,23 +423,91 @@ button{
     border: 40px;
     border-radius: 30px;
 }
-ul li{
+
+.task-list {
     list-style: none;
-    font-size: 17px;
-    padding: 12px 8px 12px 50px;
-    user-select: none;
-    cursor: pointer;
-    position: relative;
 }
-ul li::before{
-    content: '';
-    position: absolute;
-    height: 28px;
-    width: 28px;
-    border-radius: 50%;
-    background-image:  url(utility/circle1.png);
-    background-size: cover;
-    background-position: center;
-    top: 12px;
-    left: 8px;
+
+.task {
+    margin-bottom: 15px;
+}
+
+.task-checkbox {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+    accent-color: #28a745;
+}
+
+.task-text {
+    font-size: 16px;
+    color: #333;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+.task-checkbox:checked+.task-text {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.converter-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    margin-top: 100px;
+    margin: 100px auto 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.converter {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.result h3 {
+    margin-top: 15px;
+    color: #333;
+}
+
+.result p {
+    font-size: 1.5rem;
+    color: #555;
 }

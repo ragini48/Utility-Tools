@@ -40,33 +40,34 @@
         </div>
     </header>
 
-    <div class="todolist">
-        <div class="todo-web">
-            <h2>To-Do List 📑</h2>
-            <div class="roww">
-                <input type="text" id="input-box" placeholder="Add your text">
-                <button onclick="addTask()">Add</button>
+    <div class="converter-container">
+        <h1>Unit Converter</h1>
+        <div class="converter">
+            <div class="input-section">
+                <label for="inputValue">Enter Value:</label>
+                <input type="number" id="inputValue" placeholder="Enter a number">
             </div>
-            <ul class="task-list" id="list-container">
-                <!-- <li class="task">
-                    <label>
-                        <input type="checkbox" class="task-checkbox">
-                        <span class="task-text">Task1</span>
-                    </label>
-                </li>
-                <li class="task">
-                    <label>
-                        <input type="checkbox" class="task-checkbox">
-                        <span class="task-text">Task2</span>
-                    </label>
-                </li>
-                <li class="task">
-                    <label>
-                        <input type="checkbox" class="task-checkbox">
-                        <span class="task-text">Task3</span>
-                    </label>
-                </li> -->
-            </ul>
+            <div class="unit-type-section">
+                <label for="unitType">Select Unit Type:</label>
+                <select id="unitType">
+                    <option value="length">Length</option>
+                    <option value="weight">Weight</option>
+                    <option value="temperature">Temperature</option>
+                </select>
+            </div>
+            <div class="unit-section">
+                <label for="fromUnit">From:</label>
+                <select id="fromUnit"></select>
+            </div>
+            <div class="unit-section">
+                <label for="toUnit">To:</label>
+                <select id="toUnit"></select>
+            </div>
+            <button id="convertBtn">Convert</button>
+            <div class="result">
+                <h3>Converted Value:</h3>
+                <p id="resultValue">0</p>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
